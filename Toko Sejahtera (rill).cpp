@@ -51,7 +51,7 @@ int main(){
 		d = 0.20;
 	}
 	
-	tb = thsd - d;
+	tb = (thsd * d) - thsd;
 	
 	cout<<"===============HASIL================"<<endl;
 	cout<<"Nama = "<<nama<<endl;
